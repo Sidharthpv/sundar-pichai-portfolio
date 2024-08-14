@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+    background-color: rgb(159, 63, 248);
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+header h2{
+    color: white;
+    margin-left: 40%;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h3{
+    color: white;
+    margin-left: 45%;
+    font-size: 25px;
+}
+
+#home{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+    content: "";
+    background-image: url(https://wallpapers.com/images/hd/ceo-sundar-pichai-questions-congress-e9dqrvezsy9dxj26.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+nav{
+    background: linear-gradient(#DED9D4, blueviolet,#DED9D4);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding: 50px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    display: flex;
+    margin-top: 30px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.ab-row{
+    height: 800px;
+    width: 100%;
+    background-color: #DED9D4;
+    padding-top: 20px;
+}
+
+.ab-col{
+    margin-top: 20px;
+    padding: 25px;
+    height: 375px;
+    width: 625px;
+    background-color: #cbc4dc;
+    margin: 50px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    
+}
+.ab-col img{
+    width: 600px;
+    height: 350px;
+}
+
+.ab-col1{
+    padding: 25px;
+    height: 200px;
+    width: 625px;
+    background-color: #cbc4dc;
+    margin: 50px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.exp-row{
+    height: 1800px;
+    width: 100%;
+    background-color: #DED9D4;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.exp-row img{
+    height: 400px;
+    width: 550px;
+    margin-left: 30%;
+    border-radius: 20%;
+    transition: all 0.8s ;
+}
+
+.exp-row img:hover{
+    box-shadow: 4px 6px 8px black;
+    transform: scale(1.1);
+}
+
+.desc{
+    height: 220px;
+    width: 850px;
+    background-color: #8B919D;
+    margin: 20px;
+    margin-left: 25%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+} 
+
+.inv-row{
+    height: 400px;
+    width: 100%;
+    background-color: #DED9D4;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inv-col{
+    width: 260px;
+    height: 260px;
+    background-color:#f9edc2 ;
+    margin: 10px;
+}
+
+.inv-col img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    filter: drop-shadow(-4px -6px 8px blueviolet);
+    transition: all 0.8s;
+}
+
+.inv-col img:hover{
+    transform: rotate(180deg);
+}
+
+.banner{
+    width: 100;
+    background-image: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJYQRorxnVK0/v0/-1x-1.jpg);
+    background-size: cover;
+    height: 850px;
+    padding-top: 80px;
+}
+
+.quo{
+    height: 325px;
+    width: 350px;
+    color: white;
+    font-size: 50px;
+    /* background-color: #B54213; */
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 20%;
+    background-color: 
+    transparent;
+    transition: 0.6s ease-in;
+}
+
+.quo:hover{
+    transform: scale(1.1) ;
+    color: crimson;
+    
+    
+}
+
+.banner button{
+    height: 50px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    margin-left: 90px;
+    border-radius: 40px;
+    color: black;
+    transition: 0.4s ease-in;
+}
+
+.banner button:hover{
+    width: 170px;
+    background-color: red;
+    transform: scale(1.1);
+    color: white;
+}
+
+#Contact{
+    background-color: #DED9D4;
+    height: 600px;
+    padding: 50px;
+}
+
+form{
+    background-color: white;
+    width: 550px;
+    margin-left: 475px;
+}
+
+.input{
+    width: 500px;
+    margin: 10px;
+}
+
+form button{
+    color: azure;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
